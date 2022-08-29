@@ -42,7 +42,7 @@ emoticon_title VARCHAR2(7) PRIMARY KEY,
 tags VARCHAR2(5)
 );
 
-/* 조회 수 */
+/* 조회수 */
 CREATE TABLE hits_tbl (
 work_id VARCHAR2(10) not null, -- 작가
 work_title VARCHAR2(20) PRIMARY KEY, -- 작품명
